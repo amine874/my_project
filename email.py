@@ -1,6 +1,6 @@
 import time
 def validate_email(email):
-    if "@" in email and "." in email :
+    if "@" in email and "." in email and "gmail" in email:
         return True
     else :
         return False
